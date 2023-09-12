@@ -9,6 +9,13 @@ a {
 
 }
 
+:root {
+    --linkbrary-bg: #F0F6FF;
+    --gra-purpleblue-to-skyblue: linear-gradient(91deg, #6D6AFE 0.12%, #6AE3FE 101.84%);
+    --linkbrary-primary-color: #6D6AFE;
+    --the-julge-black: #111322;
+}
+
 
 header {
     width: 100%;
@@ -17,7 +24,7 @@ header {
     justify-content: space-between;
     gap: 8px;
     align-self: stretch;
-    background: var(--linkbrary-bg, #F0F6FF);
+    background: var(--linkbrary-bg);
 }
 
 header .login-link {
@@ -29,7 +36,7 @@ header .login-link {
     gap: 10px;
 
     border-radius: 8px;
-    background: var(--gra-purpleblue-to-skyblue, linear-gradient(91deg, #6D6AFE 0.12%, #6AE3FE 101.84%));
+    background: var(--gra-purpleblue-to-skyblue);
     
     color: var(--grey-light, #F5F5F5);
     font-family: 'Pretendard';
@@ -49,7 +56,7 @@ header .login-link {
     gap: 10px;
 
     border-radius: 8px;
-    background: var(--gra-purpleblue-to-skyblue, linear-gradient(91deg, #6D6AFE 0.12%, #6AE3FE 101.84%));
+    background: var(--gra-purpleblue-to-skyblue);
     text-decoration: none;
 
     color: var(--grey-light, #F5F5F5);
@@ -197,7 +204,7 @@ header .login-link {
     overflow: hidden;
     
     border-radius: 11px;
-    border: 2px solid var(--linkbrary-primary-color, #6D6AFE); 
+    border: 2px solid var(--linkbrary-primary-color); 
 }
 
 .card-border .select-card {
@@ -350,7 +357,7 @@ footer {
     align-self: stretch;
     margin-top: 120px;
 
-    background: var(--the-julge-black, #111322);
+    background: var(--the-julge-black);
 }
 
 .copyright{
